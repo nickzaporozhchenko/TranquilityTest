@@ -16,7 +16,7 @@ protocol DILoadable {
 
 extension DILoadable {
     static func make() -> Self {
-        *DIContainer().append(framework: framework).resolve(from: framework)
+        *DIContainer().append(framework: framework)
     }
 }
 

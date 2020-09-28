@@ -26,7 +26,7 @@ class P2_Impl: P2 {
     var descr: String { "P2 -> [ c3:{\(c3.descr)}; c4:{\(c4.descr)}; c5:{\(c5.descr)} ]"  }
 }
 
-
+// previously known as Assembly
 extension P2_Impl: DILoadable {
     static var framework: Framework.Type {
         F.self
